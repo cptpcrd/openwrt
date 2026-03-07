@@ -24,6 +24,8 @@ case "$FIRMWARE" in
 	netgear,rbs40|\
 	netgear,rbr50|\
 	netgear,rbs50|\
+	netgear,rbr50,v2|\
+	netgear,rbs50,v2|\
 	netgear,srr60|\
 	netgear,srs60)
 		caldata_extract_mmc "0:ART" 0x9000 0x2f20
@@ -92,6 +94,8 @@ case "$FIRMWARE" in
 	netgear,rbs40|\
 	netgear,rbr50|\
 	netgear,rbs50|\
+	netgear,rbr50,v2|\
+	netgear,rbs50,v2|\
 	netgear,srr60|\
 	netgear,srs60)
 		caldata_extract_mmc "0:ART" 0x1000 0x2f20
@@ -175,6 +179,8 @@ case "$FIRMWARE" in
 	netgear,rbs40|\
 	netgear,rbr50|\
 	netgear,rbs50|\
+	netgear,rbr50,v2|\
+	netgear,rbs50,v2|\
 	netgear,srr60|\
 	netgear,srs60)
 		caldata_extract_mmc "0:ART" 0x5000 0x2f20
