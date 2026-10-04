@@ -322,6 +322,7 @@
 
 &wifi1 {
 	status = "okay";
+	ieee80211-freq-limit = <5170000 5350000>;
 	nvmem-cell-names = "pre-calibration", "mac-address";
 	nvmem-cells = <&precal_art_5000>, <&mac_address_wlan_5g 0>;
 	qcom,ath10k-calibration-variant = "Netgear-Orbi-Pro-SRK60";
