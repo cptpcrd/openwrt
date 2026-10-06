@@ -1078,7 +1078,7 @@ define Device/netgear_rbx50-v2
 	IMAGE/sysupgrade.bin := append-kernel | pad-offset $$$$(BLOCKSIZE) 64 | \
 		append-uImage-fakehdr filesystem | sysupgrade-tar kernel=$$$$@ | \
 		append-metadata
-	DEVICE_PACKAGES += ath10k-firmware-qca9984-ct
+	DEVICE_PACKAGES += ath10k-firmware-qca9984-ct ipq-wifi-netgear_rbk50v2
 endef
 
 define Device/netgear_rbr50-v2

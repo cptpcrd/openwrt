@@ -152,12 +152,6 @@
 						reg = <0x12 0x6>;
 						#nvmem-cell-cells = <1>;
 					};
-
-					mac_address_bt: macaddr@18 {
-						compatible = "mac-base";
-						reg = <0x18 0x6>;
-						#nvmem-cell-cells = <1>;
-					};
 				};
 			};
 

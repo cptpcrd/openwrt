@@ -73,6 +73,7 @@ ALLWIFIBOARDS:= \
 	netgear_rbk20 \
 	netgear_rbk350 \
 	netgear_rbk40 \
+	netgear_rbk50v2 \
 	netgear_rbk750 \
 	netgear_sxk80 \
 	netgear_wax214 \
@@ -270,6 +271,7 @@ $(eval $(call generate-ipq-wifi-package,netgear_rax120v2,Netgear RAX120v2))
 $(eval $(call generate-ipq-wifi-package,netgear_rbk20,Netgear RBK20))
 $(eval $(call generate-ipq-wifi-package,netgear_rbk350,Netgear RBK350))
 $(eval $(call generate-ipq-wifi-package,netgear_rbk40,Netgear RBK40))
+$(eval $(call generate-ipq-wifi-package,netgear_rbk50v2,Netgear RBK50v2))
 $(eval $(call generate-ipq-wifi-package,netgear_rbk750,Netgear RBK750))
 $(eval $(call generate-ipq-wifi-package,netgear_sxk80,Netgear SXK80))
 $(eval $(call generate-ipq-wifi-package,netgear_wax214,Netgear WAX214))
